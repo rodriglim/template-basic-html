@@ -1,0 +1,75 @@
+body{
+    background: white;
+    position: relative;
+    width:auto;
+    height: auto;
+    display: flexbox;
+}
+
+#container {
+    margin: 100px;
+    margin-left: 11%;
+    position: relative;
+}
+
+.conteudo-principal h1,
+p {
+    margin: 20px 0px 0px;
+    text-align: justify;
+    font-family: "droid-serif", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.conteudo-principal p {
+    color: #8214db;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #8214db;
+    font-size: 3.75rem;
+    text-indent: -10px;
+}
+.conteudo-principal a{
+    text-decoration: none;
+}
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
+    position: relative;
+    line-height: 30px;
+}
+
+.paragrafo {
+    width: 44%;
+    height: 48%;
+}
+
+.img-circle {
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(150.23deg, #8A24DF 32.02%, #9D36AE 62.5%);
+    height: 450px;
+    width: 450px;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.img-circle img {
+    width: 90%;
+    position: absolute;
+ 
+    transition: transform .5s ease;
+}
+
+
+.img-circle:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1:hover{
+    color: #9D36AE ;
+    transition: transform .1s ease;
+}
